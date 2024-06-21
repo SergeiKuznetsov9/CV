@@ -1,15 +1,19 @@
 import { MainPage } from "./pages/main/MainPage";
-import { useTheme } from "./providers/themeProvider/useTheme";
-import "./App.css";
+import cls from "./app.module.scss";
+import { useContext } from "react";
+import {
+  Theme,
+  ThemeContext,
+  ThemeContextProps,
+} from "./providers/themeProvider/themeContext";
 
-function App() {
-  const { theme } = useTheme();
-
+export const App = () => {
+  const { changeTheme } = useContext(ThemeContext) as ThemeContextProps;
   return (
-    <div className={`app ${theme}`}>
+    <div className={cls.app}>
+      <button onClick={() => changeTheme(Theme.DARK)}>DarkTheme</button>
+      <button onClick={() => changeTheme(Theme.LIGHT)}>LightTheme</button>
       <MainPage />
     </div>
   );
-}
-
-export default App;
+};

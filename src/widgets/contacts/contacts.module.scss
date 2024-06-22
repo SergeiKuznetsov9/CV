@@ -1,0 +1,39 @@
+.Contacts {}
+
+.sticker {
+    margin-right: var(--gap-l-neg);
+    margin-bottom: var(--gap-s);
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-2s);
+    margin-bottom: var(--gap-2s);
+    margin-left: var(--gap-2s);
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--primary-font-color)
+}
+
+.hint {
+    font: var(--small-font);
+    margin-left: var(--gap-m);
+    margin-bottom: var(--gap-s);
+    display: flex;
+    flex-direction: column;
+
+    .hintIcon {
+        display: flex;
+        align-items: center;
+        gap: var(--gap-2s);
+    }
+}
+
+.iconForHint {
+    width: 15px;
+    height: 15px;
+}

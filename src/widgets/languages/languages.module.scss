@@ -1,0 +1,21 @@
+.Languages {
+    margin-bottom: var(--gap-4l);
+}
+
+.sticker {
+    margin-right: var(--gap-l-neg);
+    margin-bottom: var(--gap-s);
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-m);
+    margin-bottom: var(--gap-2s);
+    margin-left: var(--gap-2s);
+}
+
+.value {
+    font: var(--small-font);
+}

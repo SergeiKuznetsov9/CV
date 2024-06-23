@@ -1,0 +1,33 @@
+.SectionTitle {
+    display: flex;
+    gap: var(--gap-s);
+    color: var(--bg-sticker-color);
+    align-items: center;
+}
+
+.title {
+    text-transform: uppercase;
+    font: var(--paragraph-font)
+}
+
+.line {
+    flex-grow: 1;
+    border: solid 2px;
+}
+
+.iconBlock {
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--bg-ls-color);
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--bg-sticker-color)
+}

@@ -1,4 +1,27 @@
 .RightSide {
     background-color: var(--bg-rs-color);
     flex-grow: 1;
+    padding: var(--gap-m) var(--gap-l);
+    color: var(--primary-font-inversed-color);
+}
+
+.name {
+    font: var(--header-font);
+    text-transform: uppercase;
+    margin-bottom: var(--gap-m);
+}
+
+.position {
+    font: var(--header-secondary-font);
+    text-transform: uppercase;
+    margin-bottom: var(--gap-m);
+}
+
+.location {
+    font: var(--main-left-side-font);
+    margin-bottom: var(--gap-m);
+
+    display: flex;
+    align-items: center;
+    gap: var(--gap-2s);
 }

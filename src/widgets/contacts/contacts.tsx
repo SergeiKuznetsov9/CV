@@ -5,11 +5,13 @@ import { ReactComponent as TelegrammIcon } from "../../assets/icons/telegram.svg
 import { ReactComponent as ViberIcon } from "../../assets/icons/viber.svg";
 import { ReactComponent as WhatsappIcon } from "../../assets/icons/whatsapp.svg";
 import cls from "./contacts.module.scss";
+import { useTranslation } from "react-i18next";
 
 export const Contacts = () => {
+  const { t } = useTranslation();
   return (
     <section className={cls.Contacts}>
-      <StickerLine text="контакты" className={cls.sticker} />
+      <StickerLine text={t("контакты")} className={cls.sticker} />
       <div className={cls.item}>
         <TelephoneIcon className={cls.icon} />
         <span>+375 (44) 7224795</span>
@@ -18,7 +20,7 @@ export const Contacts = () => {
         <ViberIcon className={cls.icon} />
       </div>
       <div className={cls.hint}>
-        <span>Предпочтительный способ связи -</span>
+        <span>{t("Предпочтительный способ связи -")}</span>
         <span className={cls.hintIcon}>
           Telegram <TelegrammIcon className={cls.iconForHint} />
         </span>

@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { FC, useContext } from "react";
 import cls from "./header.module.scss";
 import {
   Theme,
@@ -6,8 +6,13 @@ import {
   ThemeContextProps,
 } from "../../providers/themeProvider";
 import { useTranslation } from "react-i18next";
+import classNames from "classnames";
 
-export const Header = () => {
+type HeaderProps = {
+  className: string;
+};
+
+export const Header: FC<HeaderProps> = ({ className }) => {
   const { t, i18n } = useTranslation();
 
   const toggleLanguage = () => {
@@ -17,7 +22,7 @@ export const Header = () => {
 
   const { changeTheme } = useContext(ThemeContext) as ThemeContextProps;
   return (
-    <header className={cls.Header}>
+    <header className={classNames(cls.Header, className)}>
       <button onClick={toggleLanguage}>{t("Поменять язык")}</button>
       <button onClick={() => changeTheme(Theme.LIGHT)}>
         {t("Светлая Тема")}

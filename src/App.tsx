@@ -5,7 +5,7 @@ import { Header } from "./widgets/header/header";
 export const App = () => {
   return (
     <div className={cls.app}>
-      <Header />
+      <Header className={cls.header} />
       <MainPage />
     </div>
   );

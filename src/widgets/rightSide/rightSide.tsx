@@ -3,7 +3,6 @@ import { ReactComponent as LocationIcon } from "../../assets/icons/location.svg"
 import { Experience } from "../experience/experience";
 import { Education } from "../education/education";
 import { Courses } from "../courses/courses";
-import { AboutMe } from "../aboutMe/aboutMe";
 
 import cls from "./rightSide.module.scss";
 
@@ -20,7 +19,6 @@ export const RightSide = () => {
       <Experience />
       <Education />
       <Courses />
-      <AboutMe />
     </section>
   );
 };

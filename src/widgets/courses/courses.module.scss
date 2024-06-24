@@ -1,0 +1,27 @@
+.devider {
+  margin-bottom: var(--gap-s);
+}
+
+.content {
+  display: flex;
+  margin-bottom: var(--gap-s);
+  padding-right: var(--gap-l);
+
+  .point {
+    width: 15%;
+    min-width: 130px;
+    font: var(--small-font);
+  }
+
+  .description {
+    width: 85%;
+
+    .organization {
+      font: var(--medium-font);
+    }
+
+    .course {
+      font: var(--small-2-font);
+    }
+  }
+}

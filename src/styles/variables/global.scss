@@ -1,10 +1,12 @@
 :root {
   // Шрифты
-  --font-family-main: Raleway, "Times New Roman", Serif;
+  --font-family-main: Raleway-normal, "Times New Roman", Serif;
   --font-family-secondary: "Times New Roman", Serif;
+  --font-family-italic: Raleway-italic, "Times New Roman", Serif;
 
   --font-size-xs: 12px;
   --font-size-s: 14px;
+  --font-size-2s: 16px;
   --font-size-m: 18px;
   --font-size-l: 24px;
   --font-size-xl: 32px;
@@ -13,14 +15,27 @@
   --font-weight-m: 700;
   --font-weight-l: 900;
 
-  --main-left-side-font: var(--font-weight-s) var(--font-size-m) /1.4 var(--font-family-main);
-  --small-font: var(--font-weight-s) var(--font-size-s) /1.4 var(--font-family-main);
-  --x-small-font: var(--font-weight-s) var(--font-size-xs) /1.4 var(--font-family-main);
-  --sticker-font: var(--font-weight-m) var(--font-size-m) /1.4 var(--font-family-main);
+  --main-left-side-font: var(--font-weight-s) var(--font-size-m) / 1.4
+    var(--font-family-main);
+  --small-font: var(--font-weight-s) var(--font-size-s) / 1.4
+    var(--font-family-main);
+  --small-2-font-bold: var(--font-weight-m) var(--font-size-2s) / 1.4
+    var(--font-family-main);
+  --small-2-font: var(--font-weight-s) var(--font-size-2s) / 1.4
+    var(--font-family-main);
+  --x-small-font: var(--font-weight-s) var(--font-size-xs) / 1.4
+    var(--font-family-main);
+  --medium-font: var(--font-weight-m) var(--font-size-m) / 1.4
+    var(--font-family-main);
+  --medium-font-italic: var(--font-weight-s) var(--font-size-m) / 1.4
+    var(--font-family-italic);
 
-  --header-font: var(--font-weight-m) var(--font-size-xl) /1.4 var(--font-family-secondary);
-  --header-secondary-font: var(--font-weight-m) var(--font-size-l) /1.4 var(--font-family-secondary);
-  --paragraph-font: var(--font-weight-m) var(--font-size-m) /1.4 var(--font-family-secondary);
+  --header-font: var(--font-weight-m) var(--font-size-xl) / 1.4
+    var(--font-family-secondary);
+  --header-secondary-font: var(--font-weight-m) var(--font-size-l) / 1.4
+    var(--font-family-secondary);
+  --paragraph-font: var(--font-weight-m) var(--font-size-m) / 1.4
+    var(--font-family-secondary);
 
   /* Отступы */
   --gap-2xs: 2px;

@@ -5,8 +5,10 @@ import { Header } from "./widgets/header/header";
 export const App = () => {
   return (
     <div className={cls.app}>
-      <Header className={cls.header} />
-      <MainPage />
+      <div className={cls.blur}>
+        <Header className={cls.header} />
+        <MainPage />
+      </div>
     </div>
   );
 };

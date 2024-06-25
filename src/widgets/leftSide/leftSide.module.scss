@@ -1,8 +1,8 @@
 .LeftSide {
-    font: var(--main-left-side-font);
-    background-color: var(--bg-ls-color);
-    padding: var(--gap-4l) var(--gap-l) var(--gap-m) var(--gap-l);
-    width: 30%;
-    min-height: 100vh;
-    min-width: 306px;
+  font: var(--main-left-side-font);
+  background-color: var(--bg-ls-color);
+  padding: var(--gap-4l) var(--gap-l) var(--gap-m) var(--gap-l);
+  width: 30%;
+  min-width: 306px;
+  border-radius: 3px 0px 0px 3px;
 }

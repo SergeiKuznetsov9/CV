@@ -1,26 +1,11 @@
 .app {
-  width: 100%;
-  min-height: 100vh;
-
-  background-image: url("./assets/img/background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.blur {
-  width: 100%;
-  min-height: 100vh;
-  height: inherit;
-
+  max-width: 1920px;
+  width: 1920px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  backdrop-filter: blur(4px);
 }
 
 .header {
   margin-bottom: var(--gap-s);
-
 }

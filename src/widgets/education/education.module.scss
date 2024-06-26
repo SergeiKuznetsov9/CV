@@ -1,31 +1,24 @@
-.devider {
+.Education {
+  margin-bottom: var(--gap-4l);
+  font: var(--small-font);
+}
+
+.sticker {
+  margin-right: var(--gap-l-neg);
   margin-bottom: var(--gap-s);
 }
 
-.content {
+.state {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-m);
+  margin-bottom: var(--gap-2xs);
+  margin-left: var(--gap-2s);
+}
+
+.spec {
   margin-bottom: var(--gap-s);
-  padding-right: var(--gap-l);
-
-  .point {
-    width: 15%;
-    min-width: 130px;
-    font: var(--small-font);
-  }
-
-  .description {
-    width: 85%;
-
-    .organization {
-      font: var(--medium-font);
-    }
-
-    .department {
-      font: var(--medium-font-italic);
-    }
-
-    .profession {
-      font: var(--small-2-font);
-    }
-  }
+  margin-left: var(--gap-2s);
+  font: var(--small-font-italic);
 }

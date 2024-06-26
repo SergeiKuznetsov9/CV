@@ -1,4 +1,5 @@
 import { StickerLine } from "../../components/stickerLine/stickerLine";
+import { ReactComponent as LocationIcon } from "../../assets/icons/location.svg";
 import { ReactComponent as MailIcon } from "../../assets/icons/mail.svg";
 import { ReactComponent as TelephoneIcon } from "../../assets/icons/telephone.svg";
 import { ReactComponent as TelegrammIcon } from "../../assets/icons/telegram.svg";
@@ -12,6 +13,12 @@ export const Contacts = () => {
   return (
     <section className={cls.Contacts}>
       <StickerLine text={t("контакты")} className={cls.sticker} />
+      <div className={cls.item}>
+        <LocationIcon className={cls.icon} />
+        <span className={cls.location}>
+          {t("Республика Беларусь, г.Гомель")}
+        </span>
+      </div>
       <div className={cls.item}>
         <TelephoneIcon className={cls.icon} />
         <span>+375 (44) 7224795</span>

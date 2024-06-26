@@ -1,41 +1,45 @@
 .Contacts {
-    margin-bottom: var(--gap-4l);
+  margin-bottom: var(--gap-4l);
 }
 
 .sticker {
-    margin-right: var(--gap-l-neg);
-    margin-bottom: var(--gap-s);
+  margin-right: var(--gap-l-neg);
+  margin-bottom: var(--gap-s);
 }
 
 .item {
-    display: flex;
-    align-items: center;
-    gap: var(--gap-2s);
-    margin-bottom: var(--gap-2s);
-    margin-left: var(--gap-2s);
+  display: flex;
+  align-items: center;
+  gap: var(--gap-2s);
+  margin-bottom: var(--gap-2s);
+  margin-left: var(--gap-2s);
+}
+
+.location {
+  font: var(--small-font);
 }
 
 .icon {
-    width: 20px;
-    height: 20px;
-    fill: var(--primary-font-color)
+  width: 20px;
+  height: 20px;
+  fill: var(--primary-font-color);
 }
 
 .hint {
-    font: var(--small-font);
-    margin-left: var(--gap-m);
-    margin-bottom: var(--gap-s);
-    display: flex;
-    flex-direction: column;
+  font: var(--small-font);
+  margin-left: var(--gap-m);
+  margin-bottom: var(--gap-s);
+  display: flex;
+  flex-direction: column;
 
-    .hintIcon {
-        display: flex;
-        align-items: center;
-        gap: var(--gap-2s);
-    }
+  .hintIcon {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-2s);
+  }
 }
 
 .iconForHint {
-    width: 15px;
-    height: 15px;
+  width: 15px;
+  height: 15px;
 }

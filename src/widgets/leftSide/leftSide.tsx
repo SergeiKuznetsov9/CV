@@ -1,6 +1,7 @@
 import { Contacts } from "../contacts/contacts";
+import { Courses } from "../courses/courses";
+import { Education } from "../education/education";
 import { Languages } from "../languages/languages";
-import { Skills } from "../skills/skills";
 import cls from "./leftSide.module.scss";
 
 export const LeftSide = () => {
@@ -8,7 +9,8 @@ export const LeftSide = () => {
     <section className={cls.LeftSide}>
       <Contacts />
       <Languages />
-      <Skills />
+      <Education />
+      <Courses />
     </section>
   );
 };

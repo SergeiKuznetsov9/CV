@@ -1,38 +1,35 @@
 import { useTranslation } from "react-i18next";
-import { SectionTitle } from "../../components/sectionTitle/sectionTitle";
-import { ReactComponent as EducationIcon } from "../../assets/icons/education_cap.svg";
-
+import { StickerLine } from "../../components/stickerLine/stickerLine";
 import cls from "./education.module.scss";
 
 export const Education = () => {
   const { t } = useTranslation();
   return (
-    <section>
-      <SectionTitle
-        title={t("образование")}
-        Icon={EducationIcon}
-        className={cls.devider}
-      />
-      <div className={cls.content}>
-        <div className={cls.point}>2019</div>
-        <div className={cls.description}>
-          <p className={cls.organization}>
-            {t("Академия Министерства внутренних дел Республики Беларусь")}
-          </p>
-          <p className={cls.department}>{t("Факультет права")}</p>
-          <p className={cls.profession}>{t("Юрист")}</p>
-        </div>
+    <section className={cls.Education}>
+      <StickerLine text={t("образование")} className={cls.sticker} />
+      <div className={cls.state}>
+        <span>
+          {t("Академия Министерства внутренних дел Республики Беларусь")}
+        </span>
+        <span>2016</span>
       </div>
-      <div className={cls.content}>
-        <div className={cls.point}>2008</div>
-        <div className={cls.description}>
-          <p className={cls.organization}>
-            {t("Гомельский государственный университет им. Ф. Скорины, Гомель")}
-          </p>
-          <p className={cls.department}>{t("Экономический факультет")}</p>
-          <p className={cls.profession}>{t("Бухгалтер")}</p>
-        </div>
+      <p className={cls.spec}>{t("Факультет права, Юрист")}</p>
+      <div className={cls.state}>
+        <span>
+          {t("Гомельский государственный университет им. Ф. Скорины")}
+        </span>
+        <span>2008</span>
       </div>
+      <p className={cls.spec}>{t("Экономический факультет, Бухгалтер")}</p>
+      <div className={cls.state}>
+        <span>
+          {t("Гомельский государственный университет им. Ф. Скорины")}
+        </span>
+        <span>2008</span>
+      </div>
+      <p className={cls.spec}>
+        {t("Факультет переподготовки, Переводчик-референт")}
+      </p>
     </section>
   );
 };

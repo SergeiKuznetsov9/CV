@@ -11,19 +11,29 @@
   "B1 - средний": "B1 - medium",
   "Русский": "Russian",
   "Родной": "Native",
+
   "навыки": "skills",
   "адаптивная верстка": "adaptive layout",
   "библиотеки": "libs",
   "Методология FSD": "FSD Methodology",
-  "имеется опыт работы": "work experience",
-
+  "Имеется опыт разработки с использованием Angular(2+) и RxJS": "Experience in development with Angular(2+) and RxJS",
+  
   "Кузнецов Сергей": "Kuznetsov Sergey",
   "Frontend-разработчик": "Frontend-developer",
-  "Республика Беларусь, г.Гомель": "the Republic of Belarus, Gomel",
+  "Республика Беларусь, г.Гомель": "Republic of Belarus, Gomel",
 
   "опыт работы": "work experience",
-  "образование": "education",
-  "курсы": "courses",
+  "Содержание работы": "Job Description",
+  "Разработка и поддержка UI-приложения (добавление новых фич, актуализация зависимостей)": "Development and maintenance of a UI application (adding new features, updating dependencies)",
+  "Устранение выявленных деффектов": "Fixing bugs",
+  "Рефакторинг кода, устранение codeSmells и прочих замечаний, выявленных sonarqube": "Refactoring code, fixing code smells and other issues identified by SonarQube",
+  "Разработка Unit и e2e тестов фронтенд части": "Development of unit and e2e tests for the frontend",
+  "Разрабатываемое приложение относится к сфере финтеха (для АО 'АльфаБанк'). Построено на основе микросервисной архитектуры;": "The developed application pertains to the fintech sector (for JSC 'AlfaBank'). It is built based on a microservices architecture;",
+  "Основная используемая технология — Реакт, также используется NodeJS;": "The main technology used is React, along with NodeJS;",
+  "В сфере ответственности имеются модули, написанные как на классах, так и на функциях;": "The scope of responsibility includes modules written in both class-based and functional approaches;",
+  "В качестве стейт-менеджера — используется RTK, в т.ч. RTK-Query. Использование библиотек Jest и Cypress для разработки тестов. Подключение модулей приложения посредствам WMF (Webpack). Активное использование библиотеки Core-components. Устранение выявленных при помощи AppSec уязвимостей;": "RTK, including RTK Query, is used for state management. Jest and Cypress libraries are used for test development. Modules of the application are connected via WMF (Webpack). There is active use of the Core-components library. Identified vulnerabilities are fixed using AppSec;",
+  "В качестве дополнительной нагрузки осуществляется подготовка учебных докладов по техническим темам для принятых на работу начинающих специалистов.": "Additionally, there is the responsibility of preparing educational presentations on technical topics for newly hired junior specialists.",
+
   "о себе": "about me",
 
   "н.в.": "Present",
@@ -31,5 +41,17 @@
   "frontend-разработчик": "frontend-developer",
   "Обязанности": "Responsibilities",
   "О работе": "About Work",
-  "Асист-Лаб": "Asist-lab"
+  "Асист-Лаб": "Asist-lab",
+
+  "образование": "education",
+  "Факультет права, Юрист": "Law Faculty, Lawyer",
+  "Академия Министерства внутренних дел Республики Беларусь": "Academy of the Ministry of Internal Affairs of the Republic of Belarus",
+  "Гомельский государственный университет им. Ф. Скорины": "Francisk Skorina Gomel State University",
+  "Экономический факультет, Бухгалтер": "Faculty of Economics, Accountant",
+  "Факультет переподготовки, Переводчик-референт": "Faculty of Retraining, Translator-Referent",
+
+  "курсы": "courses",
+  "IT-Академия": "IT-Academy",
+  "Разработка веб-приложений с использованием Javascript": "Web Application Development with Javascript",
+  "Разработка веб-сайтов с использованием HTML, CSS и JavaScript": "Website Development with HTML, CSS, and JavaScript"
 }

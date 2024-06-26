@@ -1,0 +1,21 @@
+.themeSwitcher {
+  background: none;
+  cursor: pointer;
+  transition: opacity;
+  transition-duration: 0.3s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 45px;
+}
+
+.themeSwitcher:hover {
+  opacity: 0.8;
+}
+
+.themeIcon {
+  width: 30px;
+  height: 30px;
+}

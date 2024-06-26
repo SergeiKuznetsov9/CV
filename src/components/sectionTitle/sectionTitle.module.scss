@@ -1,7 +1,7 @@
 .SectionTitle {
   display: flex;
   gap: var(--gap-s);
-  color: var(--bg-sticker-color);
+  color: var(--section-title-color);
   align-items: center;
 }
 
@@ -18,7 +18,7 @@
 .iconBlock {
   width: 40px;
   height: 40px;
-  border: 2px solid var(--bg-ls-color);
+  border: 2px solid var(--section-title-ring-color);
   border-radius: 50%;
 
   display: flex;
@@ -29,5 +29,5 @@
 .icon {
   width: 20px;
   height: 20px;
-  fill: var(--bg-sticker-color);
+  fill: var(--section-title-ring-color);
 }

@@ -1,35 +1,22 @@
-import { FC, useContext } from "react";
-import cls from "./header.module.scss";
-import {
-  Theme,
-  ThemeContext,
-  ThemeContextProps,
-} from "../../providers/themeProvider";
-import { useTranslation } from "react-i18next";
+import { FC } from "react";
 import classNames from "classnames";
+import { ThemeSwitcher } from "../themeSwitcher/themeSwitcher";
+import cls from "./header.module.scss";
+import { LanguageSwitcher } from "../languageSwitcher/languageSwitcher";
+import { DownloadSwitcher } from "../downloadSwitcher/downloadSwitcher";
 
 type HeaderProps = {
   className: string;
 };
 
-export const Header: FC<HeaderProps> = ({ className }) => {
-  const { t, i18n } = useTranslation();
-
-  const toggleLanguage = () => {
-    console.log(i18n);
-    i18n.changeLanguage(i18n.language === "ru" ? "en" : "ru");
-  };
-
-  const { changeTheme } = useContext(ThemeContext) as ThemeContextProps;
-  return (
-    <header className={classNames(cls.Header, className)}>
-      <button onClick={toggleLanguage}>{t("Поменять язык")}</button>
-      <button onClick={() => changeTheme(Theme.LIGHT)}>
-        {t("Светлая Тема")}
-      </button>
-      <button onClick={() => changeTheme(Theme.DARK)}>
-        {t("Темная Тема")}
-      </button>
-    </header>
-  );
-};
+export const Header: FC<HeaderProps> = ({ className }) => (
+  <header className={classNames(cls.Header, className)}>
+    <div>
+      <DownloadSwitcher />
+    </div>
+    <div className={cls.switchers}>
+      <LanguageSwitcher />
+      <ThemeSwitcher />
+    </div>
+  </header>
+);

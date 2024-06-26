@@ -1,11 +1,21 @@
 body.dark {
   --bg-body-color: #110b07;
 
-  --bg-ls-color: #fabd89;
-  --bg-rs-color: #000000;
+  --bg-ls-color: #192a38;
+  --bg-rs-color: #273b4b;
 
-  --bg-sticker-color: #f7cba2;
+  --bg-sticker-color: #0a141e;
+
+  --bg-image-styles: brightness(0.9) blur(9px) hue-rotate(351deg);
+
+  --section-title-color: #ebebeb;
+  --section-title-ring-color: #ebebeb;
 
   --primary-font-color: #ffffff;
-  --primary-font-inversed-color: #00000;
+  --primary-font-inversed-color: #ffffff;
+
+  --list-marker-color: #ffffff;
+
+  --cv-shadow: 3px 2px 20px 0px rgba(156, 201, 255, 0.6392156863);
+  --header-shadow: 0px 1px 16px 0px rgb(156 201 255 / 40%);
 }

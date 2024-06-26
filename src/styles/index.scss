@@ -22,5 +22,5 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  backdrop-filter: blur(9px);
+  backdrop-filter: var(--bg-image-styles);
 }

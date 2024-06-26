@@ -1,0 +1,19 @@
+.languageSwitcher {
+  background: none;
+  cursor: pointer;
+  transition: opacity;
+  transition-duration: 0.3s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 45px;
+
+  color: var(--primary-font-color);
+  font: var(--medium-font);
+}
+
+.languageSwitcher:hover {
+  opacity: 0.8;
+}

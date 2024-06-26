@@ -13,7 +13,7 @@ export const RightSide = () => {
       <h1 className={cls.name}>{t("Кузнецов Сергей")}</h1>
       <h2 className={cls.position}>{t("Frontend-разработчик")}</h2>
       <p className={cls.location}>
-        <LocationIcon width="15px" height="15px" />
+        <LocationIcon className={cls.locationIcon} />
         <span>{t("Республика Беларусь, г.Гомель")}</span>
       </p>
       <Experience />

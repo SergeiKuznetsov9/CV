@@ -1,11 +1,21 @@
 body.light {
-  --bg-body-color: #EEF4F8;
+  --bg-body-color: #eef4f8;
 
   --bg-ls-color: #054276;
   --bg-rs-color: #ffffff;
 
   --bg-sticker-color: #08345d;
 
+  --bg-image-styles: brightness(1.6) blur(14px) hue-rotate(12deg);
+
+  --section-title-color: #08345d;
+  --section-title-ring-color: #054276;
+
   --primary-font-color: #ffffff;
   --primary-font-inversed-color: #000000;
+
+  --list-marker-color: #054276;
+
+  --cv-shadow: 3px 2px 20px 0px #000000;
+  --header-shadow: 0px 1px 16px 0px #6e6e6e;
 }

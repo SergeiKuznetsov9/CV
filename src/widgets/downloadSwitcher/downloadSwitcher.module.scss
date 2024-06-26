@@ -1,0 +1,19 @@
+.downloadSwitcher {
+  background: none;
+  cursor: pointer;
+  transition: opacity;
+  transition-duration: 0.3s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 116px;
+  height: 45px;
+
+  color: var(--primary-font-color);
+  font: var(--medium-font);
+}
+
+.downloadSwitcher:hover {
+  opacity: 0.8;
+}

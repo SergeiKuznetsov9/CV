@@ -1,4 +1,4 @@
 .Cv {
   display: flex;
-  box-shadow: 3px 2px 20px 0px rgba(156, 201, 255, 0.6392156863);
+  box-shadow: var(--cv-shadow);
 }

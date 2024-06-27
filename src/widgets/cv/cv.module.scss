@@ -3,7 +3,7 @@
   box-shadow: var(--cv-shadow);
 }
 
-@media screen and (max-width: 816px) {
+@media (max-width: 880px) {
   .Cv {
     flex-direction: column-reverse;
     align-items: center;

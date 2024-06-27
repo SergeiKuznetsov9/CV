@@ -13,29 +13,65 @@ export const Skills = () => {
         Icon={SkillsIcon}
         className={cls.devider}
       />
-      <div className={cls.content}>
-        <div className={cls.column}>
-          <div>JavaScript</div>
-          <div>TypeScript</div>
-          <div>React</div>
-          <div>Redux (RTK, RTK Query)</div>
-          <div>HTML5 (+{t("адаптивная верстка")})</div>
-        </div>
-        <div className={cls.column}>
-          <div>CSS, SASS</div>
-          <div>Tailwind</div>
-          <div>
-            UI-{t("библиотеки")}: Ant, UI-materials, MUI, CoreComponents
-          </div>
-        </div>
-        <div className={cls.column}>
-          <div>Node.js + Hapi</div>
-          <div>Git</div>
-          <div>Webpack</div>
-          <div>Cypress</div>
-          <div>Jest</div>
-          <div>{t("Методология FSD")}</div>
-        </div>
+      <div className={cls.contentDesktop}>
+        <ul className={cls.column}>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>React</li>
+          <li>Redux (RTK, RTK Query)</li>
+          <li>HTML5 (+{t("адаптивная верстка")})</li>
+        </ul>
+        <ul className={cls.column}>
+          <li>CSS, SASS</li>
+          <li>Tailwind</li>
+          <li>UI-{t("библиотеки")}: Ant, UI-materials, MUI, CoreComponents</li>
+        </ul>
+        <ul className={cls.column}>
+          <li>Node.js + Hapi</li>
+          <li>Git</li>
+          <li>Webpack</li>
+          <li>Jest</li>
+          <li>Cypress</li>
+          <li>{t("Методология FSD")}</li>
+        </ul>
+      </div>
+      <div className={cls.contentTablet}>
+        <ul className={cls.column}>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>React</li>
+          <li>Redux (RTK, RTK Query)</li>
+          <li>HTML5 (+{t("адаптивная верстка")})</li>
+          <li>CSS, SASS</li>
+          <li>Tailwind</li>
+        </ul>
+        <ul className={cls.column}>
+          <li>UI-{t("библиотеки")}: Ant, UI-materials, MUI, CoreComponents</li>
+          <li>Node.js + Hapi</li>
+          <li>Git</li>
+          <li>Webpack</li>
+          <li>Jest</li>
+          <li>Cypress</li>
+          <li>{t("Методология FSD")}</li>
+        </ul>
+      </div>
+      <div className={cls.contentMobile}>
+        <ul className={cls.column}>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>React</li>
+          <li>Redux (RTK, RTK Query)</li>
+          <li>HTML5 (+{t("адаптивная верстка")})</li>
+          <li>CSS, SASS</li>
+          <li>Tailwind</li>
+          <li>UI-{t("библиотеки")}: Ant, UI-materials, MUI, CoreComponents</li>
+          <li>Node.js + Hapi</li>
+          <li>Git</li>
+          <li>Webpack</li>
+          <li>Jest</li>
+          <li>Cypress</li>
+          <li>{t("Методология FSD")}</li>
+        </ul>
       </div>
       <div className={cls.addition}>
         {t("Имеется опыт разработки с использованием Angular(2+) и RxJS")}

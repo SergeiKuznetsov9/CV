@@ -76,26 +76,11 @@ export const Experience = () => {
           <p className={cls.position}>{t("frontend-разработчик")}</p>
           <p className={cls.chapterTitle}>{t("Обязанности")}</p>
           <ul className={cls.list}>
-            <li>
-              Разработка UI-приложений с использованием различных технологий
-              (React, NextJs, Angular(2+))
-            </li>
+            <li>{t("asist-description1")}</li>
           </ul>
           <p className={cls.chapterTitle}>{t("Содержание работы")}</p>
-          <p className={cls.workDescription}>
-            Аутсорсинговая компания, специализирующейся на работе с
-            израильскими, европейскими и американскими заказчиками. На практике
-            подтянул навыки владения английским языком.
-          </p>
-          <p className={cls.workDescription}>
-            Также в процессе данного опыта посчастливилось использовать широкий
-            набор инструментов разработки (Node (express), React, Next, Angular
-            (естественно с плотным использованием RxJS)), а также принять
-            участие в разработке фронтенд приложений различной направленности
-            (приложение для клиники глазной хирургии, CRM-система с широким
-            функционалом для американского заказчика, интернет портал для
-            клиентов и поставщиков услуг в сфере увеселительных мероприятий…).
-          </p>
+          <p className={cls.workDescription}>{t("asist-description2")}</p>
+          <p className={cls.workDescription}>{t("asist-description3")}</p>
         </div>
       </div>
     </section>

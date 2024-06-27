@@ -17,7 +17,7 @@
   "библиотеки": "libs",
   "Методология FSD": "FSD Methodology",
   "Имеется опыт разработки с использованием Angular(2+) и RxJS": "Experience in development with Angular(2+) and RxJS",
-  
+
   "Кузнецов Сергей": "Kuznetsov Sergey",
   "Frontend-разработчик": "Frontend-developer",
   "Республика Беларусь, г.Гомель": "Republic of Belarus, Gomel",
@@ -33,6 +33,9 @@
   "В сфере ответственности имеются модули, написанные как на классах, так и на функциях;": "The scope of responsibility includes modules written in both class-based and functional approaches;",
   "В качестве стейт-менеджера — используется RTK, в т.ч. RTK-Query. Использование библиотек Jest и Cypress для разработки тестов. Подключение модулей приложения посредствам WMF (Webpack). Активное использование библиотеки Core-components. Устранение выявленных при помощи AppSec уязвимостей;": "RTK, including RTK Query, is used for state management. Jest and Cypress libraries are used for test development. Modules of the application are connected via WMF (Webpack). There is active use of the Core-components library. Identified vulnerabilities are fixed using AppSec;",
   "В качестве дополнительной нагрузки осуществляется подготовка учебных докладов по техническим темам для принятых на работу начинающих специалистов.": "Additionally, there is the responsibility of preparing educational presentations on technical topics for newly hired junior specialists.",
+  "asist-description1": "Development of UI applications with different technologies (React, NextJs, Angular(2+))",
+  "asist-description2": "An outsourcing company specializing in working with clients from Israel, Europe, and the USA. I improved my English language skills there.",
+  "asist-description3": "Also, working there I had the opportunity to use a wide range of development tools (Node (Express), React, Next, Angular (with extensive using RxJS)), and to participate in the development of various front-end applications (an application for an eye surgery clinic, a CRM system with extensive functionality for an American client, an online portal for customers and service providers in the entertainment industry…).",
 
   "о себе": "about me",
 

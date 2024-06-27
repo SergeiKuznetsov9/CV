@@ -47,23 +47,3 @@ li {
   margin-bottom: var(--gap-2s);
   line-height: 1.2;
 }
-
-@media (max-width: 540px) {
-  .contentDesktop {
-    display: none;
-  }
-
-  .contentTablet {
-    display: flex;
-  }
-}
-
-@media (max-width: 408px) {
-  .contentTablet {
-    display: none;
-  }
-
-  .contentMobile {
-    display: flex;
-  }
-}

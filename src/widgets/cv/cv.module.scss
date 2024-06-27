@@ -1,12 +1,4 @@
 .Cv {
   display: flex;
-  box-shadow: var(--cv-shadow);
 }
 
-@media (max-width: 880px) {
-  .Cv {
-    flex-direction: column-reverse;
-    align-items: center;
-    max-width: 520px;
-  }
-}

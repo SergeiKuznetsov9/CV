@@ -3,10 +3,8 @@ import cls from "./app.module.scss";
 import { Header } from "./widgets/header/header";
 
 export const App = () => {
-  return (
-    <div className={cls.app}>
-      <Header className={cls.header} />
+  return (<>
+      {/* <Header className={cls.header} /> */}
       <MainPage />
-    </div>
-  );
+    </>)
 };

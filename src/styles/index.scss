@@ -5,16 +5,11 @@
 @import "./variables/global.scss";
 
 body {
-  background: var(--bg-body-color);
+  background: #054276;
   color: var(--primary-font-color);
 
   width: 100%;
   min-height: 100vh;
-  background-image: url("../assets/img/background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 #root {

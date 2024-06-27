@@ -17,10 +17,3 @@
 .downloadSwitcher:hover {
   opacity: 0.8;
 }
-
-@media (max-width: 408px) {
-  .downloadSwitcher {
-    width: 90px;
-    font: var(--small-font-bold);
-  }
-}

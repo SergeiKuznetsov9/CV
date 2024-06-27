@@ -43,27 +43,3 @@
     }
   }
 }
-
-@media (max-width: 880px) {
-  .content {
-    padding-right: 0;
-  }
-}
-
-@media (max-width: 408px) {
-  .content {
-    flex-direction: column;
-
-    .point {
-      font: var(--small-font-bold);
-    }
-
-    .description {
-      width: 100%;
-
-      .list {
-        margin-left: var(--gap-l);
-      }
-    }
-  }
-}

@@ -13,6 +13,9 @@ i18n
     interpolation: {
       escapeValue: false,
     },
+    backend: {
+      loadPath: `https://sergeikuznetsov9.github.io/cv/locales/{{lng}}/{{ns}}.json`
+    },
   });
 
 export default i18n;

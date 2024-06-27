@@ -10,7 +10,8 @@ export const DownloadSwitcher = () => {
   const downloadFile = () => {
     const fileName = `cv-${theme}-${i18n.language}.pdf`;
     const link = document.createElement("a");
-    link.href = `/${fileName}`;
+    link.href = `https://sergeikuznetsov9.github.io/cv/${fileName}`;
+    // link.href = `/${fileName}`;
     link.download = fileName;
     document.body.appendChild(link);
     link.click();

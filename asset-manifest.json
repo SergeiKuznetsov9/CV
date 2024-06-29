@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cv/static/css/main.8e5fd897.css",
-    "main.js": "/cv/static/js/main.9d6ce0ae.js",
+    "main.js": "/cv/static/js/main.c53cab00.js",
     "static/media/Raleway-VariableFont_wght.ttf": "/cv/static/media/Raleway-VariableFont_wght.d8040b0cc740dda7550a.ttf",
     "static/media/Raleway-Italic-VariableFont_wght.ttf": "/cv/static/media/Raleway-Italic-VariableFont_wght.633366639956de44e1ab.ttf",
     "static/media/background.jpg": "/cv/static/media/background.a3917c265f05d9b1280e.jpg",
@@ -18,10 +18,10 @@
     "static/media/moon.svg": "/cv/static/media/moon.43fa1a597c49712983b7e58ec8698732.svg",
     "static/media/getFetch.cjs": "/cv/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "main.8e5fd897.css.map": "/cv/static/css/main.8e5fd897.css.map",
-    "main.9d6ce0ae.js.map": "/cv/static/js/main.9d6ce0ae.js.map"
+    "main.c53cab00.js.map": "/cv/static/js/main.c53cab00.js.map"
   },
   "entrypoints": [
     "static/css/main.8e5fd897.css",
-    "static/js/main.9d6ce0ae.js"
+    "static/js/main.c53cab00.js"
   ]
 }

@@ -10,7 +10,7 @@
   .point {
     width: 15%;
     min-width: 130px;
-    font: var(--small-font);
+    font: var(--small-font-bold);
   }
 
   .description {
@@ -33,9 +33,13 @@
       margin-bottom: var(--gap-s);
     }
 
-    li,
+    li {
+      font: var(--small-2-font);
+    }
+
     .workDescription {
       font: var(--small-2-font);
+      margin-bottom: var(--gap-xs);
     }
 
     li::marker {
@@ -53,10 +57,6 @@
 @media (max-width: 408px) {
   .content {
     flex-direction: column;
-
-    .point {
-      font: var(--small-font-bold);
-    }
 
     .description {
       width: 100%;

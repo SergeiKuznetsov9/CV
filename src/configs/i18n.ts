@@ -14,7 +14,7 @@ i18n
       escapeValue: false,
     },
     backend: {
-      loadPath: `https://sergeikuznetsov9.github.io/cv/locales/{{lng}}/{{ns}}.json`
+      loadPath: process.env.REACT_APP_API_TRANSLATIONS,
     },
   });
 

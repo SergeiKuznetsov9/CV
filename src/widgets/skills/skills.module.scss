@@ -1,5 +1,5 @@
 .Skills {
-  font: var(--small-2-font);
+  font: var(--small-2-font-bold);
 }
 
 .devider {
@@ -46,6 +46,10 @@
 li {
   margin-bottom: var(--gap-2s);
   line-height: 1.2;
+}
+
+li::marker {
+  color: var(--list-marker-color);
 }
 
 @media (max-width: 540px) {

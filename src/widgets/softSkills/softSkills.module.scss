@@ -1,0 +1,24 @@
+.Education {
+  margin-bottom: var(--gap-4l);
+  font: var(--small-font);
+}
+
+.sticker {
+  margin-right: var(--gap-l-neg);
+  margin-bottom: var(--gap-s);
+}
+
+.state {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-m);
+  margin-bottom: var(--gap-2xs);
+  margin-left: var(--gap-2s);
+}
+
+.spec {
+  margin-bottom: var(--gap-s);
+  margin-left: var(--gap-2s);
+  font: var(--small-font-italic);
+}

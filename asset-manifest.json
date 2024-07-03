@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.1348d898.css",
-    "main.js": "/cv/static/js/main.c53cab00.js",
+    "main.css": "/cv/static/css/main.9c5d9ee4.css",
+    "main.js": "/cv/static/js/main.074559bd.js",
     "static/media/Raleway-VariableFont_wght.ttf": "/cv/static/media/Raleway-VariableFont_wght.d8040b0cc740dda7550a.ttf",
     "static/media/Raleway-Italic-VariableFont_wght.ttf": "/cv/static/media/Raleway-Italic-VariableFont_wght.633366639956de44e1ab.ttf",
     "static/media/background.jpg": "/cv/static/media/background.a3917c265f05d9b1280e.jpg",
-    "static/media/viber.svg": "/cv/static/media/viber.bf438452e4b452791fb76ca6d2349973.svg",
+    "static/media/viber.svg": "/cv/static/media/viber.ae7a1c1ecc8c5b2ee9d831e173eaccd6.svg",
     "static/media/telephone.svg": "/cv/static/media/telephone.ae74a6c5459d3694700136d3a59fafcb.svg",
-    "static/media/whatsapp.svg": "/cv/static/media/whatsapp.6ec5d2774e018de16b8a886fc2c853b7.svg",
+    "static/media/whatsapp.svg": "/cv/static/media/whatsapp.7a09fb881bca36c46f3a402803491e95.svg",
     "static/media/skills.svg": "/cv/static/media/skills.5dff17c8677ca6d9c0d7c7d92af17dea.svg",
-    "static/media/telegram.svg": "/cv/static/media/telegram.194a7795f2ca9ce67ba3df939b767705.svg",
+    "static/media/telegram.svg": "/cv/static/media/telegram.6773e093a14fde112c5613ddbfc2282e.svg",
     "static/media/sun.svg": "/cv/static/media/sun.9abac4b0500e309b346737f755e40939.svg",
-    "static/media/suitcase.svg": "/cv/static/media/suitcase.50404426374cb6135744144f546e27e5.svg",
+    "static/media/suitcase.svg": "/cv/static/media/suitcase.d2737655bf57b8db3afa4ef73d53c392.svg",
     "static/media/location.svg": "/cv/static/media/location.1339fd6d3c84db00c07a08583d61a7dd.svg",
     "index.html": "/cv/index.html",
     "static/media/mail.svg": "/cv/static/media/mail.d2668a915b3d9b349ea3b51fabae0e82.svg",
-    "static/media/moon.svg": "/cv/static/media/moon.43fa1a597c49712983b7e58ec8698732.svg",
+    "static/media/moon.svg": "/cv/static/media/moon.92e0da0c5032bdcea4bcc9c802326a20.svg",
     "static/media/getFetch.cjs": "/cv/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
-    "main.1348d898.css.map": "/cv/static/css/main.1348d898.css.map",
-    "main.c53cab00.js.map": "/cv/static/js/main.c53cab00.js.map"
+    "main.9c5d9ee4.css.map": "/cv/static/css/main.9c5d9ee4.css.map",
+    "main.074559bd.js.map": "/cv/static/js/main.074559bd.js.map"
   },
   "entrypoints": [
-    "static/css/main.1348d898.css",
-    "static/js/main.c53cab00.js"
+    "static/css/main.9c5d9ee4.css",
+    "static/js/main.074559bd.js"
   ]
 }

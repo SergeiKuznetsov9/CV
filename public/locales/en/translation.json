@@ -64,5 +64,33 @@
   "курсы": "courses",
   "IT-Академия": "IT-Academy",
   "Разработка веб-приложений с использованием Javascript": "Web Application Development with Javascript",
-  "Разработка веб-сайтов с использованием HTML, CSS и JavaScript": "Website Development with HTML, CSS, and JavaScript"
+  "Разработка веб-сайтов с использованием HTML, CSS и JavaScript": "Website Development with HTML, CSS, and JavaScript",
+
+  "Тренировочные проекты": "Pet Projects",
+
+  "Ссылка на репозиторий": "Link to the repository",
+  "Игра 'Поймай Google'": "'Catch Google' game",
+  "Проект подготовлен на чистом JavaScript.": "The project is developed with vanilla JavaScript.",
+  "Основная цель - разобраться на практике с теми трудностями, которые легко решаются применением различных фреймворков или библиотеки React, что полезно для более глубокого осмысления процесса разработки.": "The main goal is to deal in practice with those difficulties that can be easily solved using various frameworks or the React library. It's useful for a deeper understanding of the development process.",
+  "В проекте применен осмысленный подход к построению его архитектуры. Приложение явно разбито на ядро и интерфейс. Ядро реализуют логику работы, а интерфейс отображает визуальную часть. Интерфейс взаимодействует с ядром посредствам созданного для этих целей адаптера. Реализован однонаправеленный поток данных.": "The project uses a meaningful approach to the construction of its architecture. The application is clearly divided into a core and an interface. The core implements the bussines logic, and the interface displays the visual part. The interface interacts with the core through an adapter created for this purpose. A unidirectional data flow is implemented.",
+  "При разработке интерфейса использован компонентный подход. Приложение не завершенное. Впредь планируется добавление возможности игры по сети.": "A component-based approach was used in the development of the interface. The application is incomplete. From now on, it is planned to add the ability to play online.",
+
+  "Веб сайт 'Сборник Статей'": "Website 'Digest of Articles'",
+  "Проект подготовлен на React кастомной сборки (create-react-app не использовался) с использованием TypeScript. Представляет собой веб сайт для размещения статей различными авторами.": "The project was developed on React custom build (create-react-app was not used) using TypeScript. It is a website for posting articles by various authors.",
+  "Для логина следует использовать никнэйм 'admin' и пароль '123'": "To log in, use the nickname 'admin' and the password '123'",
+  "В качестве сборщика использован Webpack. В связи с тем, что create-react-app не использовался, сборщик настроен вручную, добавлено множество плагинов и лоудеров.": "Webpack is used as the bundler. Due to the fact that the create-react-app was not used, the bundler was configured manually, and many plugins and loaders were added.",
+  "Основная цель - прокачаться не только в использовании React, но и в смежных технологиях, в т.ч. связанных с инфраструктурой веб приложений. Дизайн UI не является сильной стороной данного проекта, поскольку цель его разработки не связана с изученем дизайна.": "The main goal is to upgrade not only React skills, but also learning related technologies, including those related to the infrastructure of web applications. UI design is not a strong point of this project, since the purpose of its development is not related to the study of design.",
+  "В качестве архитектурного подхода выбран FSD": "FSD was chosen as the architectural approach",
+  "К настоящему моменту в проекте реализовано:": "To date, the project has implemented:",
+  "Настроен сборщик, его конфиг декомпозирован. При настройке конфига использованы переменные окружения; Добавлены лоудеры и плагины, необходимые для правильной работы приложения;": "The bundler is configured, its config is decomposed. During configuring, environment variables were used; loaders and plugins which are necessary for the correct operation of the application were added;",
+  "Организована работа со стилями, при которой добавление цветовых тем является простой задачей. Также добавлено несколько цветовых тем;": "Working with styles is organized. Due to its organization adding color themes is a simple task. Several color themes have also been added;",
+  "Реализован роутинг с ленивой подгрузкой;": "Routing with lazy loading is implemented;",
+  "Добавлена интернационализация приложения;": "The application were internationalized;",
+  "Подключен и настроен Redux Toolkit с асинхронными редьюсерами;": "The Redux Toolkit with asynchronous reducers is connected and configured;",
+  "Реализована авторизация и добавлен сервер для обработки запросов. Сервер разработан для платформы NodeJS;": "Authorization has been implemented and a server has been added to process requests. The server is designed for the NodeJS platform;",
+  "Разработаны модули профиля, статьи;": "Profile and articles modules have been developed;",
+  "Пагинация списка статей реализована через бесконечный скролл;": "Pagination of the articles list is implemented through infinity scroll;",
+  "Добавлены фильтры, сортировки и поиски статей": "Added filters, sorting and article searches",
+  "Разработан ESLint plugin который загружен в NPM и установлен;": "The ESLint plugin has been developed which is loaded into NPM and then installed;",
+  "Проект далеко не является законченным, происходит постоянное дополнение и улучшения в процессе изучения различных инструментов разработки.": "The project is far from complete, there is a constant addition and improvement in the process of studying various development tools."
 }

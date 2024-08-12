@@ -1,0 +1,59 @@
+.petProjectPage {
+    margin-bottom: var(--gap-xl);
+    width: 100%;
+    max-width: 1200px;
+}
+
+.header {
+    font: var(--h2-font);
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--gap-2l);
+    margin-left: var(--gap-2l);
+}
+
+.projectItem {
+    background-color: var(--bg-ls-color);
+    padding: var(--gap-2l);
+    box-shadow: var(--cv-shadow);
+    border-radius: 4px;
+    margin-bottom: var(--gap-l);
+}
+
+.ref {
+    margin-bottom: var(--gap-l);
+    display: flex;
+    gap: var(--gap-s);
+    flex-wrap: wrap;
+}
+
+a {
+    font: var(--header-secondary-font);
+    width: fit-content;
+    padding: 8px 16px;
+    background-color: var(--bg-sticker-color);
+    color: white;
+    transition: color, .3s;
+}
+
+a:hover {
+    color: rgb(160, 163, 207);
+}
+
+.descritpion {
+    font: var(--descrition-font);
+    margin-bottom: var(--gap-s);
+
+}
+
+.descritpionList {
+
+    li {
+        margin-left: var(--gap-3l);
+        margin-top: var(--gap-2s);
+        margin-bottom: var(--gap-2s);
+    }
+
+    li::marker {
+        color: var(--description-list-marker-color);
+    }
+}

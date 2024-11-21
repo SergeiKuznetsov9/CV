@@ -11,14 +11,14 @@ export const PetProjectPage = () => {
         <p className={cls.ref}>
           <a
             href="https://sergeikuznetsov9.github.io/google-game/"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             {t("Игра 'Поймай Google'")}
           </a>
 
           <a
             href="https://github.com/SergeiKuznetsov9/google-game"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             {t("Ссылка на репозиторий")}
           </a>
@@ -45,13 +45,13 @@ export const PetProjectPage = () => {
 
       <div className={cls.projectItem}>
         <p className={cls.ref}>
-          <a href="https://wayfarer-pet-project.netlify.app/" target="_blank">
+          <a href="https://deepway-front.netlify.app/" target="_blank" rel="noreferrer">
             {t("Веб сайт 'Сборник Статей'")}
           </a>
 
           <a
             href="https://github.com/SergeiKuznetsov9/study-deep"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             {t("Ссылка на репозиторий")}
           </a>
